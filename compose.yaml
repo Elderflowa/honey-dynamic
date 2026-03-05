@@ -1,11 +1,10 @@
 services:
-  honey:
-    image: ghcr.io/elderflowa/honey-dynamic:modified
+  honey-dynamic:
+    image: ghcr.io/elderflowa/honey-dynamic:latest
     container_name: honey-dynamic
     restart: unless-stopped
     volumes:
       - ./config:/app/dist/config
       - ./icons:/app/dist/img/custom
-#      - ./javascript/index-BJD3KWT5.js:/app/dist/assets/index-BJD3KWT5.js
     ports:
       - "4174:4173"
