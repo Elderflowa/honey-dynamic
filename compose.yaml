@@ -1,0 +1,10 @@
+services:
+  honey:
+    image: ghcr.io/elderflowa/honey:latest
+    container_name: honey-dynamic
+    restart: unless-stopped
+    volumes:
+      - ./config:/app/dist/config
+      - ./icons:/app/dist/img/custom
+    ports:
+      - "4174:4173"
