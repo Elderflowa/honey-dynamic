@@ -6,7 +6,7 @@
 />
 
 # honey-dynamic — a fork of honey
-[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/elderflowa/honey-dynamic?label=honey-dynamic%3Alatest)](https://hub.docker.com/r/elderflowa/honey-dynamic)
+[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/elderflowa/honey-dynamic?label=elderflowa/honey-dynamic:latest)](https://hub.docker.com/r/elderflowa/honey-dynamic)
 
 **honey-dynamic** is a fork of dani3l0's [Honey](https://github.com/dani3l0/honey) that provides a sleek, simple dashboard for your services.
 It has cool animations, and with the small adjustments i made, sligthly more dynamic.
