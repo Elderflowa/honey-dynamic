@@ -16,6 +16,8 @@ It has cool animations, and with the small adjustments i made, sligthly more dyn
 | ---------------------------------------------------------------------------------------------- |
 | <img src="https://raw.githubusercontent.com/Elderflowa/honey-dynamic/refs/heads/main/example.png" alt="Configuration" /> |
 ---
+## Main Differences
+Added synamic change of background and logo when switching theme.
 ## Running in Docker
 ### Clone
 Clone this repository:
